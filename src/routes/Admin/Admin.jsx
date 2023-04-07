@@ -1,11 +1,10 @@
-import blogFetch from "../axios/config";
+import blogFetch from "../../axios/config";
 
-import { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
 
 import { Link } from "react-router-dom";
 
 import "./Admin.css";
-import axios from "axios";
 
 const Admin = () => {
   const [posts, setPosts] = useState([]);
@@ -33,6 +32,7 @@ const Admin = () => {
   useEffect(() => {
     getPosts();
   }, []);
+
   return (
     <div className="admin">
       <h1>Gerenciar posts</h1>

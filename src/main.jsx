@@ -1,15 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-import { createBrowserRouter, RouterProvider, Route } from "react-router-dom";
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
 
 import App from "./App";
 
-import Home from "./routes/Home";
-import Post from "./routes/Post";
-import NewPost from "./routes/NewPost";
-import Admin from "./routes/Admin";
-import EditPost from "./routes/EditPost";
+import Admin from "./routes/Admin/Admin";
+import Home from "./routes/Home/Home";
+import EditPost from "./routes/Post/EditPost";
+import NewPost from "./routes/Post/NewPost";
+import Post from "./routes/Post/Post";
 
 import "./index.css";
 

@@ -1,4 +1,4 @@
-import blogFetch from "../axios/config";
+import blogFetch from "../../axios/config";
 
 import { useState, useEffect } from "react";
 
